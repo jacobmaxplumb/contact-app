@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "fullName": "Jacob Plumb",
+      "email": "jacobmaxplumb@gmail.com",
+      "city": "Ann Arbor"
+    },
+    {
+      "id": "fe17",
+      "fullName": "James Plumb",
+      "email": "jamesplumb@gmail.com",
+      "city": "St.Petersburg"
+    }
+  ]
+}

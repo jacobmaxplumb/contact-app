@@ -12,6 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "fkill :9000 :3000 -f -s && concurrently \"npm:backend\" \"npm:start\"",
+    "backend": "json-server data.json -p 9000",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "fkill-cli": "^8.0.0",
+    "json-server": "^1.0.0-beta.1"
   }
 }
